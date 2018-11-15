@@ -49,7 +49,7 @@ then open a pull request to base branch
 
 * You can use [gitlab-jira integration](https://docs.gitlab.com/ee/user/project/integrations/jira.html#closing-jira-issues) to close issues directly from gitlab
 
-* code will be peer-reviewed, when all issues are solved it will be merged on to master, staging and development  
+* code will be peer-reviewed, when all issues are solved it will be merged on to base branch and all lower branches 
 * after branch was merged, you can delete the local branch if you like:    
 
         git checkout development  
