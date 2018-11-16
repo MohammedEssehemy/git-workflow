@@ -9,7 +9,14 @@
 
 _____
 
+## Get the repository
+
+* clone the repository on your machine:
+
+        git clone url #url is the repository url
+
 ## Feature/Issue workflow
+
 * each new feature/issue created with new branch forked from development:
 
         git checkout development
@@ -37,6 +44,7 @@ then open a pull request to development branch
 _____
 
 ## Hotfix workflow
+
 * hotfixes are forked from `staging` or `master` as it requires:  
 
         git checkout master  # or staging (as needed)
@@ -49,7 +57,7 @@ then open a pull request to base branch
 
 * You can use [gitlab-jira integration](https://docs.gitlab.com/ee/user/project/integrations/jira.html#closing-jira-issues) to close issues directly from gitlab
 
-* code will be peer-reviewed, when all issues are solved it will be merged on to base branch and all lower branches 
+* code will be peer-reviewed, when all issues are solved it will be merged on to base branch and all lower branches
 * after branch was merged, you can delete the local branch if you like:    
 
         git checkout development  
