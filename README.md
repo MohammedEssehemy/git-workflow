@@ -22,11 +22,16 @@ _____
         git checkout development
         git pull
         git checkout -b feature/my-awesome-feature
-edit, commit, push your commits as needed:
+
+* Write your code
+
+* add files, commit, push your commits as needed:
 
         git add .  #You can select the needed files
         git commit -m 'commit message'
         git push --set-upstream origin feature/my-awesome-feature # first time only after that use git push
+
+
 when you finish your work, pull the development branch and solve any conflicts:
 
         git pull origin development
